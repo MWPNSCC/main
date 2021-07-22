@@ -2,6 +2,7 @@ table, th, td {border: 1px solid black;}
 .topnav {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 /* Style the topnav links */
@@ -28,4 +29,14 @@ table, th, td {border: 1px solid black;}
     float: none;
     width: 100%;
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  text-align: center;
 }
